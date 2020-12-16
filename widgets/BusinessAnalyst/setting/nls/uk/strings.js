@@ -1,0 +1,23 @@
+define({
+  "businessAnalyst": "Business Analyst",
+  "defineWhichInfographics": "Визначати, яка інфографіка доступна в віджеті:",
+  "defineWhichReports": "Визначати, які звіти доступні в віджеті:",
+  "defaultValues": "Значення за замовчуванням:",
+  "disable": "Деактивація",
+  "driveTime": "Час подорожування автомобілем",
+  "infographics": "Інфографіка",
+  "invalidValueRing": "Значення повинні бути в діапазоні від 0 до 1 000.",
+  "invalidValueDTWT": "Значення повинні бути в діапазоні від 0 до 300.",
+  "km": "км",
+  "makeDefault": "Зробити за замовчуванням",
+  "miles": "миль",
+  "minutes": "хвилин",
+  "radius": "Радіус",
+  "removeDefault": "Видалити параметри за замовчуванням",
+  "reports": "Звіти",
+  "rings": "Кільця",
+  "selectCountryOrRegion": "Оберіть країну або регіон:",
+  "thisEntryIsNotValid": "Цей запис недійсний.",
+  "time": "Час",
+  "walkTime": "Час подорожування пішки"
+});

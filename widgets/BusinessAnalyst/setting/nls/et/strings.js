@@ -1,0 +1,23 @@
+define({
+  "businessAnalyst": "Ärianalüütik",
+  "defineWhichInfographics": "Määrake, milline infograafika on vidinas saadaval:",
+  "defineWhichReports": "Määrake, millised raportid on vidinas saadaval:",
+  "defaultValues": "Vaikeväärtused:",
+  "disable": "Keela",
+  "driveTime": "Sõiduaeg",
+  "infographics": "Infograafika",
+  "invalidValueRing": "Väärtused peavad olema vahemikus 0–1000.",
+  "invalidValueDTWT": "Väärtused peavad olema vahemikus 0–300.",
+  "km": "km",
+  "makeDefault": "Määra vaikeväärtuseks",
+  "miles": "mi",
+  "minutes": "min",
+  "radius": "Raadius",
+  "removeDefault": "Eemalda vaikesäte",
+  "reports": "Aruanded",
+  "rings": "Ringid",
+  "selectCountryOrRegion": "Valige riik või piirkond:",
+  "thisEntryIsNotValid": "See kirje ei kehti.",
+  "time": "Aeg",
+  "walkTime": "Kõndimise aeg"
+});

@@ -1,0 +1,23 @@
+define({
+  "businessAnalyst": "Business Analyst",
+  "defineWhichInfographics": "Definir infografia disponível no widget:",
+  "defineWhichReports": "Definir relatórios disponíveis no widget:",
+  "defaultValues": "Valores predefinidos:",
+  "disable": "Desativar",
+  "driveTime": "Tempo de condução",
+  "infographics": "Infográficos",
+  "invalidValueRing": "Os valores devem estar no intervalo de 0 a 1000.",
+  "invalidValueDTWT": "Os valores devem estar no intervalo de 0 a 300.",
+  "km": "km",
+  "makeDefault": "Criar predefinição",
+  "miles": "milhas",
+  "minutes": "minutos",
+  "radius": "Raio",
+  "removeDefault": "Remover predefinição",
+  "reports": "Relatórios",
+  "rings": "Anéis",
+  "selectCountryOrRegion": "Selecionar país ou região:",
+  "thisEntryIsNotValid": "Esta entrada não é válida.",
+  "time": "Hora",
+  "walkTime": "Tempo de Caminhada"
+});

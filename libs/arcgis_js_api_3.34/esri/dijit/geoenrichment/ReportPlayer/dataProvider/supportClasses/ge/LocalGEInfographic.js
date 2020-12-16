@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.34/esri/copyright.txt for details.
+//>>built
+define("esri/dijit/geoenrichment/ReportPlayer/dataProvider/supportClasses/ge/LocalGEInfographic",["dojo/_base/declare","./LocalGEBase"],function(e,f){return e(f,{_fieldNameToFieldInfoCache:null,_variableIdToFieldInfoCache:null,constructor:function(b,d,a){this._fieldNameToFieldInfoCache={};this._variableIdToFieldInfoCache={};b.fieldInfos.forEach(function(a){this._fieldNameToFieldInfoCache[a.name]=a;this._variableIdToFieldInfoCache[a.variableID]=a},this);this._initGE(b.calcData.variables,d[a||0],b.calcData.calculatorName)},
+_propulateAttributesFromAreaData:function(b,d){for(var a in d){var c=this._fieldNameToFieldInfoCache[a];c?b[c.variableID]=d[a]:b[a]=d[a]}},_createField:function(b,d){var a=this.inherited(arguments),c=this._variableIdToFieldInfoCache[b];c?(a.alias=c.alias,a.decimals=c.decimals,a.units=c.showPercent?"pct":c.showCurrency?"currency":a.units,a.type=c.type||a.type):a.noVariableField=!0;return a},_filterAttributeField:function(b){return!b.noVariableField}})});

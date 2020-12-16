@@ -1,0 +1,23 @@
+define({
+  "businessAnalyst": "Business Analyst",
+  "defineWhichInfographics": "Definiți ce grafice informative sunt disponibile în widget:",
+  "defineWhichReports": "Definiți ce rapoarte sunt disponibile în widget:",
+  "defaultValues": "Valori implicite:",
+  "disable": "Dezactivare",
+  "driveTime": "Timp de conducere",
+  "infographics": "Grafice informative",
+  "invalidValueRing": "Valorile trebuie să fie cuprinse între 0 și 1.000.",
+  "invalidValueDTWT": "Valorile trebuie să fie cuprinse între 0 și 300.",
+  "km": "km",
+  "makeDefault": "Setare ca implicit",
+  "miles": "mile",
+  "minutes": "minute",
+  "radius": "Rază",
+  "removeDefault": "Eliminați implicit",
+  "reports": "Rapoarte",
+  "rings": "Inele",
+  "selectCountryOrRegion": "Selectați țara sau regiunea:",
+  "thisEntryIsNotValid": "Această intrare nu este validă.",
+  "time": "Timp",
+  "walkTime": "Timp de deplasare"
+});

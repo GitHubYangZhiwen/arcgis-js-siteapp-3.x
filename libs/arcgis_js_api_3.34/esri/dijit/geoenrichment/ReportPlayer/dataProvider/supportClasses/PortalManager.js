@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.34/esri/copyright.txt for details.
+//>>built
+define("esri/dijit/geoenrichment/ReportPlayer/dataProvider/supportClasses/PortalManager","dojo/Deferred dojo/on esri/dijit/geoenrichment/when esri/arcgis/Portal ../../../utils/requests/UniversalClient ../commands/mapToImage/MapToURLUtil ../../../utils/CacheUtil ../../../utils/ProjectionUtil".split(" "),function(f,g,h,e,k,l,m,n){return{getPortalInfo:function(a){var c=m.get("PortalManager");if(!c[a]){var b=new e.Portal(a),d=new f;g(b,"load",function(){if(b.user)return c[a]={user:new e.PortalUser({portal:b,
+credential:{userId:b.user.username,server:b.url,token:"",expires:9999999999999,creationTime:9999999999999,scope:"portal",resources:[b.portalUrl]}}),portal:b},d.resolve(c[a]);c[a]=h(b.signIn(),function(a){d.resolve({user:a,portal:b});return{user:a,portal:b}})});return d.promise}return c[a]},tryConfigureServicesFromAGOLPublic:function(){return k.requestPublicFirst("https://www.arcgis.com/sharing/rest/portals/self",{},{retryOnAnyError:!1}).then(function(a){if(a=a&&a.helperServices)a.geometry&&n.setGeometryServiceUrl(a.geometry.url),
+a.printTask&&l.setPrintMapTaskUrl(a.printTask.url)}).otherwise(function(a){console.log(a)})}}});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.34/esri/copyright.txt for details.
+//>>built
+define("esri/dijit/geoenrichment/ReportPlayer/core/supportClasses/templateJsonUtils/TemplateJsonAnalyzer",["./query/TemplateJsonQueryUtil"],function(d){return{collectVariablesStats:function(c){var b={};d.processTemplateFieldInfos(c,function(a){a.infographicJson&&a.infographicJson.variables?a.infographicJson.variables.forEach(function(a){b[a]=1}):a.hasVariable&&(a.usedMapTos?a.usedMapTos.forEach(function(a){b[a]=1}):a.fullName&&(b[a.fullName]=1))});return b},collectMapItemIds:function(c){var b={};
+d.calcNumberOfMaps(c,function(a){a.webMapId&&(b[a.webMapId]=1);a.defaultBasemapId&&(b[a.defaultBasemapId]=1)});c=[];for(var a in b)c.push(a);return c}}});

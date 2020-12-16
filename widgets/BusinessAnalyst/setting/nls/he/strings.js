@@ -1,0 +1,23 @@
+define({
+  "businessAnalyst": "מנתח עסקי",
+  "defineWhichInfographics": "הגדר אילו פריטי אינפוגרפיקה יהיו זמינים בווידג'ט:",
+  "defineWhichReports": "הגדר אילו דוחות יהיו זמינים בווידג'ט:",
+  "defaultValues": "ערכי ברירת מחדל:",
+  "disable": "השבת",
+  "driveTime": "זמן נסיעה",
+  "infographics": "אינפוגרפיקה",
+  "invalidValueRing": "הערכים חייבים להיות בטווח של 0 עד 1,000.",
+  "invalidValueDTWT": "הערכים חייבים להיות בטווח של 0 עד 300.",
+  "km": "ק\"מ",
+  "makeDefault": "הפוך לברירת מחדל",
+  "miles": "מיילים",
+  "minutes": "דקות",
+  "radius": "רדיוס",
+  "removeDefault": "הסר ברירת מחדל",
+  "reports": "דוחות",
+  "rings": "טבעות",
+  "selectCountryOrRegion": "ארץ או אזור שנבחרו:",
+  "thisEntryIsNotValid": "ערך זה אינו חוקי.",
+  "time": "שעה",
+  "walkTime": "זמן הליכה"
+});

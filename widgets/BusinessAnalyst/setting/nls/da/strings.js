@@ -1,0 +1,23 @@
+define({
+  "businessAnalyst": "Business Analyst",
+  "defineWhichInfographics": "Definér, hvilken infografik der er tilgængelig i widget'en:",
+  "defineWhichReports": "Definér, hvilke rapporter der er tilgængelige i widget'en:",
+  "defaultValues": "Standardværdier:",
+  "disable": "Deaktivér",
+  "driveTime": "Køretid",
+  "infographics": "Infografik",
+  "invalidValueRing": "Værdierne skal ligge inden for området 0 til 1.000.",
+  "invalidValueDTWT": "Værdierne skal ligge inden for området 0 til 300.",
+  "km": "km",
+  "makeDefault": "Gør til standard",
+  "miles": "miles",
+  "minutes": "minutter",
+  "radius": "Radius",
+  "removeDefault": "Fjern standard",
+  "reports": "Rapporter",
+  "rings": "Ringe",
+  "selectCountryOrRegion": "Vælg land/region:",
+  "thisEntryIsNotValid": "Denne angivelse er ikke gyldig.",
+  "time": "Tid",
+  "walkTime": "Gåtid"
+});
